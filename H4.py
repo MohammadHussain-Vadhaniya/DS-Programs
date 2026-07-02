@@ -1,10 +1,10 @@
 # Linear Search - Spam Detector
 
 blacklist = [
-    "spam123@gmail.com",
-    "fake@mail.com",
+    "fake123@gmail.com",
+    "xzy@mail.com",
     "abc@yahoo.com",
-    "test@spam.com"
+    "valid@spam.com"
 ]
 
 email = input("Enter sender email: ")
@@ -17,6 +17,6 @@ for sender in blacklist:
         break
 
 if found:
-    print("Spam Email Detected!")
+    print("Fake Email")
 else:
     print("Safe Email")
